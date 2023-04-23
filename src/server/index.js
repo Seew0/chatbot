@@ -1,7 +1,7 @@
 const http = require('http')
 const app = http.createServer((req, res) => {
 
-	res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000, https://vlw2.com/chat');
+	res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3001, https://vlw2.com/chat');
 	res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
 	res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
 
